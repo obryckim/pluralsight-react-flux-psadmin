@@ -1,0 +1,30 @@
+{
+    "root": true,
+    "extends": [
+        "eslint:recommended"
+      ],
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-trailing-spaces": "error",
+        "eol-last": [
+            "error",
+            "always"
+        ],
+        "no-underscore-dangle": "error",
+        "no-alert": "off",
+        "no-lone-blocks": "error",
+        "no-console": "warn"
+    },
+    "globals": {
+        "jQuery": true,
+        "$": true
+    }
+}
